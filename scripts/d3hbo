@@ -1,0 +1,31 @@
+#!/bin/bash
+
+# CLS
+clear
+
+# Info
+echo "=====| D3GO-HBO STARTED |====="
+
+# Default
+URL="http://www.d3go.tv"
+
+
+# Flag arguments
+while getopts dh option; do
+  case $option in
+    d) URL="http://www.d3go.tv";;
+    h) URL="http://www.hbogo.rs";;
+    ?) URL="http://www.d3go.tv"
+  esac
+done
+
+# Print selection
+echo "-----| Selected |-----"
+echo "         $URL         "
+
+# Script for pipelight
+# \rm > skip alias
+\rm -rf ~/.wine-pipelight/*; \rm -rf ~/.wine-pipelight/./.*; cp -a ~/viewright_backup/. ~/.wine-pipelight/
+
+# Firefox fullscreen profile
+firefox -P "Stream" $URL -no-remote

@@ -1,0 +1,220 @@
+LISTA LINUX APLIKACIJA:
+***********************
+
+EDITORS:
+--------
+Vim (plugins + configs)
+Sublime text, Atom
+Remarkable (markdown editor odlican)
+meld (diff prost i dobar)
+
+SHELLS:
+-------
+Zsh + Oh my zsh
+
+
+TERMINALS:
+----------
+Roxterm (xfce term, gnome terminal)
+Tmux, Tmuxinator
+Guake
+cool-retro-term (bruka terminal :), https://github.com/Swordfish90/cool-retro-term)
+
+IRC:
+----
+weechat
+
+NETWORK:
+--------
+nmap
+reaper (wifi hack)
+curl
+wget
+aria2 - odlican dloader + torrent
+gns3 - network simulator
+
+FILE MANAGER:
+-------------
+ranger (ranger --copy-config=all > neophodno da bi radili pluginovi(highlight))
+(midnight commander)
+
+BACKUP:
+-------
+rsync (+ cron za schedule)
+
+NOTEPAD:
+--------
+Mousepad (ili neki default gedit)
+
+VIRTUAL MACHINES:
+-----------------
+Virtual box
+Vagrant
+Wine
+
+D3GO/HBO:
+---------
+pipelight (viewright + silverlight plugin)
+
+REMOTE:
+-------
+Team Viewer
+
+SYSINFO:
+--------
+htop
+bmon
+screenfetch
+iotop
+psensor (lm-sensors)
+Glance (odlican monitor sa webserver support)
+monitorix (odlican monitor za servere ali moze i za desktop*)
+
+ADMIN:
+------
+sysdig (ozbiljan monitoring software)
+
+FILE-SYNC
+---------
+Syncthing (http://syncthing.net/)
+syncthing-gtk (https://github.com/syncthing/syncthing-gtk)
+
+TORRENT
+-------
+transmission-gtk (on je verovatno najbolji i najjednostavniji)
+transmission-daemon (za remote access odlicno!)
+transmission-cli
+
+VIDEO:
+------
+smplayer
+vlc
+getpopcorn
+
+STREAMING:
+----------
+livestreamer
+peerflix - torrent streamer
+
+LAMP STACK:
+-----------
+xampp
+
+MUSIC:
+------
+Clementine
+Atraci (youtube music player)
+Tomahawk (+ www.tomaha.wk)
+
+PACKAGES:
+---------
+Synaptic
+Y PPA Repository
+Aptik (backup ppa, pkg itd...)
+
+CLOUD:
+------
+Dropbox
+(Copy, mozda dostojna alternativa sa 15gb)
+Mega - odlican!
+
+PHP:
+----
+Composer
+PHPUnit
+xdebug
+
+JS:
+---
+Node (npm)
+Yeoman (grunt + bower)
+jshint
+phantomjs
+
+RUBY:
+-----
+rbenv (ovo prvo) + apt libssl-dev
+ruby (1.9.3 , 2.0.0, i najnoviji system)
+rails (+ railstutorial: sudo apt-get install libxslt-dev libxml2-dev libsqlite3-dev)
+pyr (+ pyr-doc)
+(za sql sa rails: sudo apt-get install libmysqlclient-dev)
+
+GIT:
+----
+Git
+git-cola
+giggle (odlican viewer)
+gitflow - metodologija rada
+
+DOCK:
+-----
+Cairo dock (mozda i neki ligher)
+
+TERMINAL TOOLS:
+---------------
+ag, ack (alternative za grep, ack je zastupljeniji)
+tree
+xclip (sa xclip-pastefile, copy, cut korisno)
+most
+youtube-dl
+powerline (ima i za vim, mora font da se compile)
+cmus (odlican music player)
+yelp (man from gui, odlican i veoma koristan)
+multitail (za pracenje logova)
+fzf (ODLICNO, fuzzy search, github.com/junegunn/fzf)
+at (execute command later, odlicno)
+moc (mp3 player dobar, activan community
+taskwarrior (odlican task tracker, ima dosta adv features)
+tudu (odlican ncurse, dovoljno mocan ali prost)
+  -> vit (addon za taskwarrio, treba libcurses-perl, i sa git hub se instalira)
+hhighligher (https://github.com/paoloantinori/hhighlighter, koristan alat za npr logove koji boji nekom bojom word npr error)
+
+
+SMALL TERMINAL TOOLS:
+---------------------
+highlight (txt,code)
+img2txt
+pdftotext
+atool (achives, odlican arhiver automatizuje dosta)
+rar
+mediainfo
+cmatrix (matrix screensaver apt-get)
+termdown (python, ODLICNA stoperica/timer)
+zenity (popup, notification itd.. from terminal)
+ncdu (odlicno za file usage stats)
+pv ( pipe viewer, progres bar monitor za neku komandu)
+
+MIX X APPS:
+-----------
+Alarm clock aplet
+Conky + theme pack (~/.conky)
+Selene (convertor)
+gnome sushi (odlican previewer na space dugme)
+yacreader, calibre, mcomix - comix readeri
+baobab (disk usage analyzer)
+ubuntu-tweak (korisno)
+mutate (slicno kao alfred search za mac)
+typecatcher (odlican alat za google fonts)
+
+BROWSER:
+--------
+dwb (jedina dobra vim-like alternativa)
+
+FONTS:
+------
+Powerline patched fonts (ovo instalirati)
+*** Napraviti spisak programerski fontova
+
+DB VIEWER
+---------
+dbeaver (odlican client)
+
+SECURITY
+--------
+lynis (alatka za testiranje sigurnosti sistema po nekim standardima i preporukama)
+
+MULTIMEDIA
+----------
+icnsutils (alatka koja konvertuje icns format u png, korisno za low rez icons)
+g'mic (odlican! plugin set za poboljsavanje fotografija)
+shrinkpdf.sh ( odlicna skripta za kompresiju pdf! veoma korisno i jednostavno )

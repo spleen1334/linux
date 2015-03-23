@@ -1,0 +1,5 @@
+[roxterm options]
+only_warn_running=0
+prefer_dark_theme=1
+warn_close=1
+colour_scheme=Tango
