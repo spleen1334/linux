@@ -1,0 +1,28 @@
+# ~/.tmuxinator/php.yml
+
+name: Simple JS
+root: ~/Programming/
+
+# Optional tmux socket
+# socket_name: foo
+
+# Runs before everything. Use it to start daemons etc.
+# pre: clear
+
+# Runs in each window and pane before window/pane specific commands. Useful for setting up interpreter versions.
+pre_window: clear
+
+# Pass command line options to tmux. Useful for specifying a different tmux.conf.
+# tmux_options: -f ~/.tmux.mac.conf
+
+# Change the command to call tmux.  This can be used by derivatives/wrappers like byobu.
+# tmux_command: byobu
+
+windows:
+  - vim: vim
+  - server:
+      layout: even-vertical
+      panes:
+        - node
+        - curl
+  - bash: tree -d -L 2

@@ -1,0 +1,172 @@
+/*
+    Copyright 2015 Ivan awamper@gmail.com
+
+    This program is free software; you can redistribute it and/or
+    modify it under the terms of the GNU General Public License as
+    published by the Free Software Foundation; either version 2 of
+    the License, or (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program. If not, see <http://www.gnu.org/licenses/>.
+*/
+
+.google-calculator-main-box {
+    padding: 10px 10px 10px 10px;
+    color: #eeeeec;
+    background-color: rgba(23, 25, 26, 0.85);
+}
+
+.google-calculator-background {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.google-calculator-prefs-button {
+    color: rgba(255, 255, 255, 0.3);
+    icon-size: 30px;
+    padding: 7px;
+}
+
+.google-calculator-prefs-button:hover {
+    color: white;
+}
+
+.google-calculator-entry-icon {
+    icon-size: 0.8em;
+    color: #8d8f8a;
+    padding-left: 5px;
+    padding-right: 5px;
+    transition-duration: 300ms;
+}
+
+.google-calculator-entry {
+    font-size: 30px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.google-calculator-entry:hover .google-calculator-entry-icon,
+.google-calculator-entry:focus {
+    color: #eeeeec;
+    transition-duration: 300ms;
+}
+
+.google-calculator-entry-suggestion {
+    padding-top: 5px;
+    padding-left: 47px;
+    font-size: 30px;
+    background-color: rgba(49, 49, 49, 0.8);
+}
+
+.google-calculator-results-view-scroll {
+    padding-top: 10px;
+}
+
+.google-calculator-results-view-scroll StScrollView.vfade {
+    -st-vfade-offset: 60px;
+}
+
+.google-calculator-results-view-scroll StScrollView.hfade {
+    -st-hfade-offset: 60px;
+}
+
+.google-calculator-results-view-scroll StScrollView StScrollBar {
+    min-width: 8px;
+    min-height: 8px;
+}
+
+.google-calculator-results-view-scroll StScrollBar StBin#trough {
+    padding-left: 20px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 0px;
+}
+
+.google-calculator-results-view-scroll StScrollBar StBin#vhandle {
+    background-color: rgba(255, 255, 255, 0.4);
+    border: 1px solid #242424;
+    border-radius: 0px;
+    transition-duration: 300ms;
+}
+
+.google-calculator-results-view-scroll StScrollBar StBin#hhandle {
+    background-color: rgba(255, 255, 255, 0.4);
+    border: 1px solid #242424;
+    border-radius: 0px;
+    transition-duration: 300ms;
+}
+
+.google-calculator-results-view-scroll StScrollBar StBin#hhandle:hover,
+.google-calculator-results-view-scroll StScrollBar StBin#vhandle:hover {
+    background-color: rgba(255, 255, 255, 0.7);
+    transition-duration: 300ms;
+}
+
+.google-calculator-results-view-scroll StScrollBar StBin#hhandle:active,
+.google-calculator-results-view-scroll StScrollBar StBin#vhandle:active {
+    background-color: rgba(255, 255, 255, 0.7);
+    transition-duration: 300ms;
+}
+
+.google-calculator-results-view-box {
+    spacing: 10px;
+}
+
+.google-calculator-results-view-icon {
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: rgba(255, 255, 255, 0.1);
+}
+
+.google-calculator-result-view-box {
+    background-color: #292929;
+    border: 1px solid rgba(154, 154, 142, 0.2);
+}
+
+.google-calculator-result-view-box:hover {
+    background-color: rgba(33, 93, 156, 0.5);
+    transition-duration: 200ms;
+}
+
+.google-calculator-result-view-box:selected {
+    /* nothing */
+}
+
+.google-calculator-result-view-query {
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.google-calculator-result-view-answer {
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    font-size: 25px;
+    color: white;
+}
+
+.google-calculator-result-view-indicator {
+    background-color: #0D4CA3;
+}
+
+.google-calculator-flash-message-box {
+    /* nothing */
+}
+
+.google-calculator-flash-message-label {
+    padding: 20px;
+    font-size: 30px;
+    color: grey;
+}
+
+.google-calculator-flash-message-icon {
+    padding: 20px;
+    color: grey;
+}

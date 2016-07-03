@@ -1,16 +1,17 @@
 LISTA LINUX APLIKACIJA:
 ***********************
 
+
 EDITORS:
 --------
 Vim (plugins + configs)
 Sublime text, Atom
 Remarkable (markdown editor odlican)
-meld (diff prost i dobar)
+
 
 SHELLS:
 -------
-Zsh + Oh my zsh
+Zsh + Oh my zsh (ohmyzsh instalirati dosta addonova)
 
 
 TERMINALS:
@@ -20,9 +21,11 @@ Tmux, Tmuxinator
 Guake
 cool-retro-term (bruka terminal :), https://github.com/Swordfish90/cool-retro-term)
 
+
 IRC:
 ----
 weechat
+
 
 NETWORK:
 --------
@@ -32,33 +35,50 @@ curl
 wget
 aria2 - odlican dloader + torrent
 gns3 - network simulator
+httpie - odlican koristan lepo izgleda i radi
+
 
 FILE MANAGER:
 -------------
 ranger (ranger --copy-config=all > neophodno da bi radili pluginovi(highlight))
 (midnight commander)
+sunflower-fm.org (najslicniji total commanderu, azuran i lepo radi/izgleda)
+nautilus-open-terminal ( pkg addon za nautilus)
+
 
 BACKUP:
 -------
 rsync (+ cron za schedule)
 
+
 NOTEPAD:
 --------
 Mousepad (ili neki default gedit)
+
 
 VIRTUAL MACHINES:
 -----------------
 Virtual box
 Vagrant
+
+
+EMULATION
+---------
 Wine
+playonlinux (wine frontend)
+
 
 D3GO/HBO:
 ---------
 pipelight (viewright + silverlight plugin)
+playonlinux (tutorial, firefox pa se skine viewright plug i instalira za taj env)
+
 
 REMOTE:
 -------
 Team Viewer
+Zoom
+
 
 SYSINFO:
 --------
@@ -70,14 +90,17 @@ psensor (lm-sensors)
 Glance (odlican monitor sa webserver support)
 monitorix (odlican monitor za servere ali moze i za desktop*)
 
+
 ADMIN:
 ------
 sysdig (ozbiljan monitoring software)
+
 
 FILE-SYNC
 ---------
 Syncthing (http://syncthing.net/)
 syncthing-gtk (https://github.com/syncthing/syncthing-gtk)
+
 
 TORRENT
 -------
@@ -85,20 +108,24 @@ transmission-gtk (on je verovatno najbolji i najjednostavniji)
 transmission-daemon (za remote access odlicno!)
 transmission-cli
 
+
 VIDEO:
 ------
 smplayer
 vlc
 getpopcorn
 
+
 STREAMING:
 ----------
 livestreamer
 peerflix - torrent streamer
 
+
 LAMP STACK:
 -----------
 xampp
+
 
 MUSIC:
 ------
@@ -106,23 +133,30 @@ Clementine
 Atraci (youtube music player)
 Tomahawk (+ www.tomaha.wk)
 
+
 PACKAGES:
 ---------
 Synaptic
 Y PPA Repository
 Aptik (backup ppa, pkg itd...)
 
+
 CLOUD:
 ------
-Dropbox
-(Copy, mozda dostojna alternativa sa 15gb)
 Mega - odlican!
+ownCloud
+
 
 PHP:
 ----
 Composer
 PHPUnit
 xdebug
+psysh (repl za php)
+phpspec
+selenium
+magerun (+ magerun plugins, + magescan plugin za magerun)
+
 
 JS:
 ---
@@ -130,6 +164,7 @@ Node (npm)
 Yeoman (grunt + bower)
 jshint
 phantomjs
+
 
 RUBY:
 -----
@@ -139,16 +174,26 @@ rails (+ railstutorial: sudo apt-get install libxslt-dev libxml2-dev libsqlite3-
 pyr (+ pyr-doc)
 (za sql sa rails: sudo apt-get install libmysqlclient-dev)
 
+WEBDEV:
+-------
+linkchecker (odlican alat za testiranje mrtvih linkova na sajtu, lak za koriscenje)
+
 GIT:
-----
+---
 Git
-git-cola
-giggle (odlican viewer)
-gitflow - metodologija rada
+gitkraken (odlican viewer, multiplatformski najbolji)
+gitflow - metodologija rada + apt-get install git-flow
+tig (apt-get odlican vizuelni browser ncurses)
+meld (diff prost i dobar)
+git-extra (*ODLICAN addon pack sa mnogo korisnih aliasa)
+git-passport (https://github.com/frace/git-passport - odlican manager za vise accountova)
+gitsome (python alat, odlican autocomplete + github integracija dosta mocno)
+
 
 DOCK:
 -----
 Cairo dock (mozda i neki ligher)
+
 
 TERMINAL TOOLS:
 ---------------
@@ -168,6 +213,7 @@ taskwarrior (odlican task tracker, ima dosta adv features)
 tudu (odlican ncurse, dovoljno mocan ali prost)
   -> vit (addon za taskwarrio, treba libcurses-perl, i sa git hub se instalira)
 hhighligher (https://github.com/paoloantinori/hhighlighter, koristan alat za npr logove koji boji nekom bojom word npr error)
+trans (odlican google translate iz terminala: https://github.com/soimort/translate-shell)
 
 
 SMALL TERMINAL TOOLS:
@@ -183,6 +229,23 @@ termdown (python, ODLICNA stoperica/timer)
 zenity (popup, notification itd.. from terminal)
 ncdu (odlicno za file usage stats)
 pv ( pipe viewer, progres bar monitor za neku komandu)
+apparix ( bookmark za terminal, veoma prosto odlicno!)
+weather-util ( vremenaska prognoza bgd=lybe)
+xsel (najjednostavniji copy/paste za terminal, radi i sa emacs,vim itd...)
+
+
+VPS
+---
+timeout (builtin alatka koja pokrece neki app i kill nakon odredjenong vremena)
+ajente (VRHUNSKI!!! free monitor admin tool koji se automatski instalira zero-setup)
+transmission (odlican za vps, ima i dobre skinove)
+teamspeak-server (lako se instalira i podesava)
+tmux (korisno)
+startup ascii art
+fzf finder
+sftp
+
+
 
 MIX X APPS:
 -----------
@@ -193,28 +256,100 @@ gnome sushi (odlican previewer na space dugme)
 yacreader, calibre, mcomix - comix readeri
 baobab (disk usage analyzer)
 ubuntu-tweak (korisno)
+variety (odlican wallpaper changer - ima repo)
 mutate (slicno kao alfred search za mac)
 typecatcher (odlican alat za google fonts)
+
 
 BROWSER:
 --------
 dwb (jedina dobra vim-like alternativa)
+
 
 FONTS:
 ------
 Powerline patched fonts (ovo instalirati)
 *** Napraviti spisak programerski fontova
 
+
 DB VIEWER
 ---------
 dbeaver (odlican client)
 
+
 SECURITY
 --------
 lynis (alatka za testiranje sigurnosti sistema po nekim standardima i preporukama)
+enpass (dobar alat za cuvanje password, creditcard info ima i sync sa cloud ili folderom)
+
 
 MULTIMEDIA
 ----------
 icnsutils (alatka koja konvertuje icns format u png, korisno za low rez icons)
 g'mic (odlican! plugin set za poboljsavanje fotografija)
 shrinkpdf.sh ( odlicna skripta za kompresiju pdf! veoma korisno i jednostavno )
+kazam (screen recorder dosta dobar i jednostavan)
+shutter (shutter project odlican screenshot program ali malo veci)
+ocenaaudio (odlican i veoma lep/prost audio editor)
+master pdf editor (odlican i besplatan pdf editor za linux)
+
+
+FUNNY
+-----
+telnet nyancat.dakko.us (nyancat animacija!!! :D)
+
+UTILITY
+-------
+linuxliveusb (dobar program za usb img kreiranje, slicno ko rufus, ali samo za linux)
+ru (koriscenje ruby umesto sed,awk)
+httpie (get post request iz terminala formated)
+wkhtmltopdf (odlican program koji renderuje html u pdf, radi za skoro sve po default)
+wkhtmltoimage (isto sto i gore ali za slike)
+
+KORISNO RAZNO
+-------------
+from scratch (odlican veoma prost note taking app, single page autosave ...)
+jpegoptim (odlican prost automatski optimizator jpg slika - ima ga u officijelnim repo)
+
+CLEANUP:
+--------
+1. sudo apt-get clean
+2. sudo apt-get autoremove
+3. sudo apt-get install localepurge
+4. sudo apt-get install deborphan
+    4.1 sudo deborphan | xargs sudo apt-get -y remove --purge
+
+DEVELOPMENT
+-----------
+linkchecker (http://wummel.github.io/linkchecker/ - odlican cli link checker prost i brz)
+sloc (npm alat - statistika source koda veoma dobar lak i jednostavan)
+ai2html (adobe illustrator > html; new york times ga koristi trebalo bi da je dobar http://ai2html.org/#how-to-use-ai2html)
+
+## JS
+jscs (http://jscs.info/ javascript coding standard npm alat izgleda dobro)
+vorlon.js (js debugger npm, standardi, perfomance, mobile, debugger)
+
+## Dokumentacija
+zeal (odlican offline documentation browser inspirisan Dash-om za macos)
+
+DEV LIBRARIES
+-------------
+is.js(http://arasatasaygin.github.io/is.js/ - jebeno do jaja plugin za provere regex, email, phone itd...)
+
+LINUXBREW
+---------
+http://brew.sh/linuxbrew (homebrew port za linux, izgleda dobro i aktivno maintainovano; isti paketi kao i na mac-u)
+
+
+SCREEN CAPTURE
+--------------
+kazam (odlican recorder)
+
+CURL WEATHER FORCAST
+--------------------
+wttf.in (curl wttr.in/"belgrade" - super prognoza iz terminala !, https://github.com/chubin/wttr.in)
+
+ISO USB MAKER
+-------------
+rufus (za win odlican)
+etcher (za linux odlican takodje, etcher.io)

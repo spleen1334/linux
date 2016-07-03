@@ -1,0 +1,13 @@
+[roxterm profile]
+colour_scheme=
+font=DejaVu Sans Mono 12
+always_show_tabs=0
+show_add_tab_btn=0
+cursor_blink_mode=1
+scroll_on_output=1
+scroll_on_keystroke=1
+scrollbar_pos=0
+hide_menubar=1
+show_resize_grip=0
+width=130
+height=45

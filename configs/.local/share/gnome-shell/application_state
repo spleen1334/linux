@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<application-state>
+  <context id="">
+    <application id="gnome-info-panel.desktop" open-window-count="0" score="0" last-seen="1452523842"/>
+    <application id="nm-connection-editor.desktop" open-window-count="0" score="1" last-seen="1452449902"/>
+    <application id="gcm-import.desktop" open-window-count="0" score="1.5" last-seen="1452523799"/>
+    <application id="nautilus.desktop" open-window-count="0" score="15.6259765625" last-seen="1452883151"/>
+    <application id="deja-dup-preferences.desktop" open-window-count="0" score="2" last-seen="1452880235"/>
+    <application id="synaptic.desktop" open-window-count="0" score="18.5" last-seen="1452883812"/>
+    <application id="chrome-hfgjlgjnpkpmnpojkkpfkogapiclopop-Default.desktop" open-window-count="0" score="781.93949854373932" last-seen="1452868684"/>
+    <application id="gedit.desktop" open-window-count="0" score="228.1077972650528" last-seen="1452883934"/>
+    <application id="vlc.desktop" open-window-count="0" score="37.5625" last-seen="1452852446"/>
+    <application id="robomongo.desktop" open-window-count="0" score="9.5" last-seen="1452431029"/>
+    <application id="org.gnome.FileRoller.desktop" open-window-count="0" score="11.210100650787354" last-seen="1452590421"/>
+    <application id="y-ppa-manager.desktop" open-window-count="0" score="8" last-seen="1452883710"/>
+    <application id="chrome-nhodjblplijafdpjjfhhanfmchplpfgl-Default.desktop" open-window-count="0" score="0.5" last-seen="1452439495"/>
+    <application id="nautilus-folder-handler.desktop" open-window-count="0" score="0" last-seen="0"/>
+    <application id="atom.desktop" open-window-count="0" score="77.5" last-seen="1452383185"/>
+    <application id="file-roller.desktop" open-window-count="0" score="0" last-seen="1452882259"/>
+    <application id="org.gnome.baobab.desktop" open-window-count="0" score="8" last-seen="1452849356"/>
+    <application id="gparted.desktop" open-window-count="0" score="1" last-seen="1452876323"/>
+    <application id="chrome-app-list.desktop" open-window-count="0" score="0" last-seen="1452439485"/>
+    <application id="update-manager.desktop" open-window-count="0" score="27.408698804676533" last-seen="1452843093"/>
+    <application id="chrome-hmjkmjkepdijhoojdojkdfohbdgmmhki-Default.desktop" open-window-count="0" score="14" last-seen="1452595705"/>
+    <application id="gucharmap.desktop" open-window-count="0" score="0" last-seen="1452444345"/>
+    <application id="skype.desktop" open-window-count="0" score="2562.5858074948192" last-seen="1452883960"/>
+    <application id="gnome-terminal.desktop" open-window-count="1" score="496.21142578125" last-seen="1452883680"/>
+    <application id="apport-gtk.desktop" open-window-count="0" score="1" last-seen="1452777597"/>
+    <application id="gnome-system-monitor.desktop" open-window-count="0" score="109.75" last-seen="1452757136"/>
+    <application id="alarm-clock-applet.desktop" open-window-count="0" score="0.43073296546936035" last-seen="1452809238"/>
+    <application id="chrome-ndgnpnpakfcdjmpgmcaknimfgcldechn-Default.desktop" open-window-count="0" score="85.171875" last-seen="1452701293"/>
+    <application id="gimp.desktop" open-window-count="0" score="5" last-seen="1452609998"/>
+    <application id="chrome-gbchcmhmhahfdphkhkmpfmihenigjmpp-Default.desktop" open-window-count="0" score="38" last-seen="1452512039"/>
+    <application id="yelp.desktop" open-window-count="0" score="0" last-seen="1452523855"/>
+    <application id="typecatcher.desktop" open-window-count="0" score="2.5" last-seen="1452443920"/>
+    <application id="org.gnome.font-viewer.desktop" open-window-count="0" score="3" last-seen="1452444569"/>
+    <application id="firefox.desktop" open-window-count="0" score="721.192138671875" last-seen="1452859711"/>
+    <application id="gnome-calculator.desktop" open-window-count="0" score="39.8359375" last-seen="1452855693"/>
+    <application id="virtualbox.desktop" open-window-count="0" score="303.75" last-seen="1452870935"/>
+    <application id="gnome-disks.desktop" open-window-count="0" score="18" last-seen="1452877408"/>
+    <application id="menulibre.desktop" open-window-count="0" score="0" last-seen="1452635367"/>
+    <application id="gnome-notifications-panel.desktop" open-window-count="0" score="0" last-seen="1452756712"/>
+    <application id="font-manager.desktop" open-window-count="0" score="8.5" last-seen="1452444422"/>
+    <application id="emacs24.desktop" open-window-count="0" score="2440.75" last-seen="1452809386"/>
+    <application id="gnome-color-panel.desktop" open-window-count="0" score="1" last-seen="1452523859"/>
+    <application id="eog.desktop" open-window-count="0" score="1.0890579223632812" last-seen="1452808078"/>
+    <application id="org.gnome.Nautilus.desktop" open-window-count="2" score="525.61591702699661" last-seen="1452884265"/>
+    <application id="gnome-shell-extension-prefs.desktop" open-window-count="0" score="2.5" last-seen="1452586875"/>
+    <application id="transmission-gtk.desktop" open-window-count="0" score="137.56794545799494" last-seen="1452871010"/>
+    <application id="google-chrome.desktop" open-window-count="1" score="23623.079773902893" last-seen="1452884157"/>
+    <application id="gnome-tweak-tool.desktop" open-window-count="0" score="20.25" last-seen="1452870964"/>
+    <application id="clementine.desktop" open-window-count="0" score="962.89411915838718" last-seen="1452806956"/>
+    <application id="smplayer.desktop" open-window-count="0" score="1459.3845694586635" last-seen="1452852520"/>
+    <application id="evince.desktop" open-window-count="0" score="350.31604626774788" last-seen="1452806971"/>
+  </context>
+</application-state>

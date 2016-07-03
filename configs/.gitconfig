@@ -1,0 +1,27 @@
+[user]
+	email = anatolij.prihosko@gmail.com
+	name = anatolij.p
+[credential]
+	helper = cache --timeout=5000
+[core]
+    filemode = false
+[color]
+    ui = auto
+[alias]
+  co = checkout
+  ci = commit
+  st = status
+  br = branch
+  hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+  type = cat-file -t
+  dump = cat-file -p
+	cm = commit -m
+	unstage = reset HEAD --
+	undo = reset --soft HEAD~1
+	last = log -1 HEAD
+	difflast = diff --cached HEAD^
+  passport = !${HOME}/.git/hooks/bin/git-passport/git-passport.py
+[push]
+	default = nothing
+[init]
+    templatedir = ~/.git/templates

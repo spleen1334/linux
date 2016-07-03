@@ -1,0 +1,8 @@
+#!/bin/sh
+
+SOURCE='~/.vimrc ~/.zshrc ~/.bashrc ~/.bash_aliases ~/.tmux.conf
+~/.tmuxinator ~/.livesteamerrc ~/Scripts'
+
+DEST='~/Dropbox/Rsync'
+
+rsync -a --progress --stats -h $SOURCE $DEST
